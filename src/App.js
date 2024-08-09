@@ -1,5 +1,15 @@
+import Layout from './components/Layout';
+import Banner from './components/Banner'
+
+
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <Layout>
+        <Banner />
+      </ Layout> 
+    </div>
+  );
 }
 
 export default App;
