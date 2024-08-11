@@ -1,5 +1,6 @@
 import Layout from './components/Layout';
 import Banner from './components/Banner'
+import QuickNav from './components/QuickNav'
 
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <div>
       <Layout>
         <Banner />
-      </ Layout> 
+        <QuickNav />
+      </Layout> 
     </div>
   );
 }
